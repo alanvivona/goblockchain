@@ -13,7 +13,7 @@ import (
 
 /* In this first implementation the difficulty will remain constant
 but in a real implementation we want this to be adjustable to fit our needs over time */
-const Difficulty = int64(10)
+const Difficulty = int64(21)
 
 type ProofOfWork struct {
 	Block  *Block   // a block from the blockchain
